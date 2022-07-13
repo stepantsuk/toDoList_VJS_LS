@@ -135,6 +135,8 @@ button {
 .todo__text {
   min-height: 25px;
   flex: 1;
+  max-width: 71%;
+  word-break: break-all;
   margin-right: 5px;
   border-radius: 2px;
   padding-left: 2px;
