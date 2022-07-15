@@ -71,16 +71,17 @@ button {
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   width: 100%;
   min-width: 300px;
-  height: 100%;
   position: relative;
-  overflow: hidden;
   background-color: rgb(52, 221, 227);
 }
 
 .todo {
-  margin: 5% auto 0;
+  margin: 5% auto;
   padding: 10px;
   width: 30%;
   min-width: 400px;
